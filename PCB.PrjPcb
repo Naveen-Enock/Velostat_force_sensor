@@ -56,7 +56,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=OPA310IDCKR\Altium\OPA310IDCKR\OPA310IDCKR.PcbLib
+DocumentPath=CustomParts.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -132,10 +132,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=GYLFDXGF
 
 [Document6]
-DocumentPath=251R15S100JV4E\Altium\251R15S100JV4E.PcbLib
+DocumentPath=..\AD24\Library\ExportIntLib\Components - 02.01.26 - 02.13\CustomParts.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -149,24 +149,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
-DocumentPath=XT60-M.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IIGVLFXH
 
 [Configuration1]
 Name=Sources
@@ -1175,10 +1158,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Simulation Generic Components.IntLib
+ComponentDesignItemID0=OpAmp with power terminals
+ComponentSymbolReference0=OpAmp with power terminals
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1192,6 +1181,28 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=GAIN
+ParameterUpdate3=1
+ParameterName4=Library Reference
+ParameterUpdate4=1
+ParameterName5=SimulationGenericComponent
+ParameterUpdate5=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=DCK0005A-IPC_B
+ModelUpdate0=1
+ModelTypeGroup1=SIM
+ModelTypeUpdate1=1
+ModelType1=SIM
+ModelName1=IDEALOPAMP_5NODES
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
